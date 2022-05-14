@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 15px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #72BF44;
+    font-family: 'Open Sans';
+    font-style: normal;
+    padding: 17px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.top p {
+    padding: 0 15px;
+}
+
+header .middle {
+    padding: 20px 30px;
+}
+
+header .middle .middle-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-top .caterogy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #72BF44;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.middle-top .caterogy p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.middle-top .search-input {
+    max-width: 856px;
+    width: 856px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: 2px solid #bebdbd;
+}
+
+.middle-top .search-input input {
+    background: #F5F5F5;
+    width: 800px;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+}
+
+.middle-top .search-input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 10px;
+    color: #D1D1D1;
+}
+
+.middle-top .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-top .icons span {
+    margin: 0 5px;
+}
+
+.middle-bottom {
+    padding: 33px 20px 20px;
+}
+
+.middle-bottom_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-bottom_link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #383838;
+    border-radius: 8px;
+    padding: 11px 12px;
+}
+
+.middle-bottom_link.active {
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 11px 12px;
+}
+
+.middle-bottom_link:hover {
+    background: #F8F8F8;
+}
+
+.home {
+    width: 100%;
+}
+
+.home-top {
+    display: flex;
+    align-items: center;
+    padding: 20px 32px 20px 32px;
+}
+
+.home-top a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    display: flex;
+    align-items: center;
+    /* green */
+    color: #72BF44;
+}
+
+.home-top p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    max-height: 80vh;
+    height: 80vh;
+    z-index: 0;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.home-main {
+    position: absolute;
+    max-width: 660px;
+    max-height: 80vh;
+    height: 45vh;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.home-main .main-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.home-main .main-text h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.home-main .main-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home-main .btn1 {
+    background: #72BF44;
+    border-radius: 8px;
+    padding: 16px 34px;
+    margin: 36px 31px;
+    color: #FFFFFF;
+}
+
+.home-main .btn2 {
+    border-radius: 8px;
+    background-color: white;
+    padding: 16px 34px;
+    margin: 36px 30px;
+    color: black;
+}
