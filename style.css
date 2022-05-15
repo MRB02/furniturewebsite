@@ -263,6 +263,7 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 63.6px;
+    padding-bottom: 35px;
 }
 
 .footer-up .fu-col li {
