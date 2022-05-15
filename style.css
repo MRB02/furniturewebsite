@@ -248,3 +248,81 @@ header .middle .middle-top {
     margin: 36px 30px;
     color: black;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 578px;
+    background-color: #F7F7F7;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 63.6px;
+}
+
+.footer-up .fu-col li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-up .fu-col li a {
+    padding-top: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #383838;
+}
+
+.footer-up .fu-col li a svg {
+    margin-right: 10px;
+}
+
+.footer-up .fuc-icons svg {
+    margin: 46px 39px 0 0;
+}
+
+.fuo-col h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #383838;
+    padding-top: 5px;
+}
+
+.fuo-col li a {
+    padding-top: 23px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #383838;
+}
+
+.fuo-col li:hover a {
+    color: green;
+}
+
+.fuo-col>iframe {
+    padding-top: 35px;
+}
+
+.footer-down {
+    display: flex;
+    margin: 0 175px 0 159px;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #CACACA;
+}
